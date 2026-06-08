@@ -1,5 +1,5 @@
 body.form-page {
-    background-color: #3C3C3C !important;
+    background-color: #FFFFFF !important;
     font-family: 'Roboto', sans-serif;
     display: flex;
     justify-content: center;
@@ -15,14 +15,14 @@ body.form-page > footer {
 }
 
 .form-container {
-    background-color: #4A4A4A;
-    color: #FFFFFF;
+    background-color: #D9D9D9;
+    color: #000000;
     padding: 40px;
-    border-radius: 15px; 
+    border-radius: 25px; 
     max-width: 480px; 
     width: 100%;
     text-align: center;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .form-container h2, .form-container h4 {
@@ -65,8 +65,8 @@ body.form-page > footer {
 .form-group label {
     display: block;
     margin-bottom: 8px;
-    font-weight: normal;
-    color: #D9D9D9;
+    font-weight: bold;
+    color: #E60000;
     font-size: 0.9rem;
 }
 
@@ -74,12 +74,12 @@ body.form-page > footer {
 .form-group select,
 .form-group textarea {
     width: 100%;
-    padding: 15px;
-    background-color: #3C3C3C;
-    border: 1px solid #5A5A5A;
-    border-radius: 8px; 
+    padding: 12px;
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 15px; 
     font-size: 1rem;
-    color: #FFFFFF;
+    color: #000000;
     box-sizing: border-box;
 }
 
